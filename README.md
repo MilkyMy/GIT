@@ -20,12 +20,12 @@ _____
 
 ### Коммиты и работа с файлами.
 
-```git commit -am```
+```Git commit -am```
 >Индексация и комит уже подготовленного к комиту, но изменённого файла file3.txt.
 >
 >![image](https://user-images.githubusercontent.com/97261554/236724873-05122144-42fc-4c89-9199-73c04748923f.png)
 
-```git commit -m “комментрий” путь к файлу```
+```Git commit -m “add second.txt” second.txt```
 >Комит определённого файла. В данном случае second.txt
 >
 >![image](https://user-images.githubusercontent.com/97261554/236727689-c1162665-a5d8-42c6-b33f-494a8411603d.png)
@@ -35,22 +35,22 @@ _____
 >
 >![image](https://user-images.githubusercontent.com/97261554/236725542-c57725b5-7956-4c9b-a95a-fd9eca68a4aa.png)
 
-```Git rm -r —cached```
+```Git rm -r --cached first.txt```
 >Удалила файл first.txt из индексации
 >
 >![image](https://user-images.githubusercontent.com/97261554/236725818-c33e2b25-ca00-46f7-8a0b-26461a2965d1.png)
 
-```Git rm -r```
+```Git rm -r first.txt```
 >Удалила файл first.txt из репозитория и проиндексировала это изменение
 >
 >![image](https://user-images.githubusercontent.com/97261554/236725993-4b1cc02a-50d4-4f25-98bb-53fcd8ba3766.png)
 
-```Git rm -f```
+```Git rm -f folder4file1.txt```
 >Удалила непроиндексированный файл folder4file1.txt
 >
 >![image](https://user-images.githubusercontent.com/97261554/236726072-27af8003-d4f4-46e4-8d77-5fc2d2ffe4b3.png)
 
-```Git mv файл новый_файл```
+```Git mv second.txt third.txt```
 >Переименовала и проиндексировала файл second.txt
 >
 >![image](https://user-images.githubusercontent.com/97261554/236726252-9e47e6f6-5af4-445e-90ad-0270e44f7b44.png)
@@ -85,10 +85,20 @@ _____
 ### Ветки. Создание, удаление, слияние.
 
 ```git branch```
+>Показывает в какой ветке я нахожусь
+>
+>![image](https://user-images.githubusercontent.com/97261554/236728450-599deb05-a4ee-46db-9975-211f86538aee.png)
 
 ```git branch -v```
+>Более детальная инф-я о ветке, показывает последний коммит
+>
+>![image](https://user-images.githubusercontent.com/97261554/236728596-f8521f3f-3d05-4fa2-b426-b225c1eaf127.png)
 
-```git branch название_ветки```
+```git branch v1```
+>Создала новую ветку - v1
+>
+>![image](https://user-images.githubusercontent.com/97261554/236728716-7a50358a-b2ac-45de-a5ee-51e17cb898c8.png)
+
 
 ```git checkout название_ветки```
 
