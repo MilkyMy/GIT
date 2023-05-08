@@ -99,7 +99,6 @@ _____
 >
 >![image](https://user-images.githubusercontent.com/97261554/236728716-7a50358a-b2ac-45de-a5ee-51e17cb898c8.png)
 
-
 ```git checkout v1```
 >Переключилась на ветку v1
 >
@@ -143,7 +142,7 @@ _____
 ```git branch -D v2```
 >Удалила несмерженную ветку v2
 >
->![image](https://user-images.githubusercontent.com/97261554/236730415-e29259b7-bf7a-495d-9464-175bea1f430a.png)
+>![image](https://user-images.githubusercontent.com/97261554/236730785-c2425f31-4190-4937-8f0f-bd7486ac42d4.png)
 
 ```git show a505bdf```
 >Посмотреть определённый комит по его номеру
