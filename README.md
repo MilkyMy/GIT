@@ -29,14 +29,13 @@ _____
 >
 >![image](https://user-images.githubusercontent.com/97261554/236727689-c1162665-a5d8-42c6-b33f-494a8411603d.png)
 
-```git add```
->Добавляет содержимое рабочего каталога в индекс для последующего коммита
-> 
-
 ```git add .```
+>Индексация всех файлов
+>![image](https://user-images.githubusercontent.com/97261554/236866396-c6a31c16-9b4e-4e86-a889-1696d4b0f290.png)
 
 ```git add “file3.txt”```
 >Индексация определенного файла
+>
 >![image](https://user-images.githubusercontent.com/97261554/236863288-0e87bd9c-f49d-41ea-aa28-20251793562d.png)
 
 ```git add -A```
