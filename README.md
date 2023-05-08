@@ -21,28 +21,64 @@ _____
 ### Коммиты и работа с файлами.
 
 ```git commit -am```
+>Индексация и комит уже подготовленного к комиту, но изменённого файла file3.txt.
+>
+>![image](https://user-images.githubusercontent.com/97261554/236724873-05122144-42fc-4c89-9199-73c04748923f.png)
 
-```git commit -m``` “комментрий” путь к файлу
+```git commit -m “комментрий” путь к файлу```
+>Комит определённого файла. В данном случае second.txt
+>
+>![image](https://user-images.githubusercontent.com/97261554/236724950-e2df7c3d-20ca-44b1-bf9a-43ccdd4e4259.png)
 
 ```Git add -A```
+>Проиндексировала изменения во всех директориях, находясь при этом в папке folder2
+>
+>![image](https://user-images.githubusercontent.com/97261554/236725542-c57725b5-7956-4c9b-a95a-fd9eca68a4aa.png)
 
 ```Git rm -r —cached```
+>Удалила файл first.txt из индексации
+>
+>![image](https://user-images.githubusercontent.com/97261554/236725818-c33e2b25-ca00-46f7-8a0b-26461a2965d1.png)
 
 ```Git rm -r```
+>Удалила файл first.txt из репозитория и проиндексировала это изменение
+>
+>![image](https://user-images.githubusercontent.com/97261554/236725993-4b1cc02a-50d4-4f25-98bb-53fcd8ba3766.png)
 
 ```Git rm -f```
+>Удалила непроиндексированный файл folder4file1.txt
+>
+>![image](https://user-images.githubusercontent.com/97261554/236726072-27af8003-d4f4-46e4-8d77-5fc2d2ffe4b3.png)
 
 ```Git mv файл новый_файл```
+>Переименовала и проиндексировала файл second.txt
+>
+>![image](https://user-images.githubusercontent.com/97261554/236726252-9e47e6f6-5af4-445e-90ad-0270e44f7b44.png)
 
 ```Git log```
+>История комитов с автором и датой
+>
+>![image](https://user-images.githubusercontent.com/97261554/236726358-a53843f5-c999-463b-b80d-b59bfcbf7c5e.png)
 
 ```Git log -p```
+>Более подробная история комитов. Показаны добавленные и удалённые строки в файлах.
+>
+>![image](https://user-images.githubusercontent.com/97261554/236726496-04ec7298-9661-4fce-a4da-c95ac2a815b5.png)
 
 ```Git show```
+>Информация по последнему комиту.
+>
+>![image](https://user-images.githubusercontent.com/97261554/236726584-ea63f67b-e74e-4b20-af07-d449c1047f04.png)
 
 ```Git diff```
+>Показывает непроиндексированные изменения в проиндексированных файлах. В данном случае, у меня было 2 подготовленных к комиту файла. Я решила внести изменения в файл dog.txt. Команда git diff показала мне эти изменения.
+>
+>![image](https://user-images.githubusercontent.com/97261554/236726672-8179d69a-7d11-480b-b808-f9e78e030c9c.png)
 
 ```Git diff —staged```
+>Я закомитила первоначальную версию файлов cat.txt и dog.txt. После этого подготовила к комиту новую версию файла dog.txt. И сравнила 2 версии файла dog.txt командой git diff --staged (первая - уже сохранённая, а вторая только подготовлена).
+>
+>![image](https://user-images.githubusercontent.com/97261554/236726839-34dc577a-5887-41f4-bd78-8a0baa89076d.png)
 
 _____
 
