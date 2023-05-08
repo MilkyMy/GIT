@@ -1,5 +1,5 @@
 # GIT
-Привет! Здесь о том, как я изучала команды GIT и работала в bash в рамках интенсива от "Школы седого тестировщика" и курса "Тестировщик с нуля" Артёма Русова.
+Привет! Здесь о том, как я изучала команды GIT в bash в рамках интенсива от "Школы седого тестировщика".
 Это портфолио собрано из моих домашних заданий)
 
 ## Оглавление
@@ -16,9 +16,20 @@ _____
 >
 >![image](https://user-images.githubusercontent.com/97261554/236861851-69d3bfcb-2f56-4f00-bc25-502fe37d2998.png)
 
-```git commit```
+```git add .```
+>Индексация всех файлов рабочего каталога
 >
+>![image](https://user-images.githubusercontent.com/97261554/236866396-c6a31c16-9b4e-4e86-a889-1696d4b0f290.png)
 
+```git add check.txt```
+>Индексация определенного файла
+>
+>![image](https://user-images.githubusercontent.com/97261554/236870770-d47a084e-177f-4c0e-a188-baa0bb8c605f.png)
+
+```git add -A```
+>Проиндексировала изменения во всех директориях
+>
+>![image](https://user-images.githubusercontent.com/97261554/236725542-c57725b5-7956-4c9b-a95a-fd9eca68a4aa.png)
 
 ```git commit -m “add second.txt” second.txt```
 >Комит определённого файла. В данном случае second.txt
@@ -29,21 +40,6 @@ _____
 >Добавление файла без индексации, то есть пропуская этот этап, он автоматич проиндексируется. Это работает только с теми файлами, которые уже были проиндексированы когда-то. С новыми - нет.
 >
 >![image](https://user-images.githubusercontent.com/97261554/236724873-05122144-42fc-4c89-9199-73c04748923f.png)
-
-```git add .```
->Индексация всех файлов
->
->![image](https://user-images.githubusercontent.com/97261554/236866396-c6a31c16-9b4e-4e86-a889-1696d4b0f290.png)
-
-```git add “file3.txt”```
->Индексация определенного файла
->
->![image](https://user-images.githubusercontent.com/97261554/236863288-0e87bd9c-f49d-41ea-aa28-20251793562d.png)
-
-```git add -A```
->Проиндексировала изменения во всех директориях, находясь при этом в папке folder2
->
->![image](https://user-images.githubusercontent.com/97261554/236725542-c57725b5-7956-4c9b-a95a-fd9eca68a4aa.png)
 
 ```git rm -r --cached first.txt```
 >Удалила файл first.txt из индексации
