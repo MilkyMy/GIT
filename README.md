@@ -100,25 +100,55 @@ _____
 >![image](https://user-images.githubusercontent.com/97261554/236728716-7a50358a-b2ac-45de-a5ee-51e17cb898c8.png)
 
 
-```git checkout название_ветки```
+```git checkout v1```
+>Переключилась на ветку v1
+>
+>![image](https://user-images.githubusercontent.com/97261554/236729532-e02f1a53-3cfa-4eab-989a-98f819bde869.png)
 
-```git checkout -f название_ветки```
+```git checkout -f main```
+>Переключилась на ветку main без сохранения изменений в ветке v1
+>
+>![image](https://user-images.githubusercontent.com/97261554/236729597-6c2c93df-376e-45f1-93ba-cc4133a0e3ac.png)
 
 ```git checkout -f```
+>Удалила все незакомиченные изменения
+>
+>![image](https://user-images.githubusercontent.com/97261554/236729685-a70f2102-0fbc-4dcf-9499-45796e9e15db.png)
 
 ```git stash```
+>Сохранила все незакомиченные изменения и откатилась до предыдущего комита
+>
+>![image](https://user-images.githubusercontent.com/97261554/236729832-1301dd25-6e90-47de-8ed1-701e712de70f.png)
 
 ```git stash pop```
+>Вернулась к этим изменениям
+>
+>![image](https://user-images.githubusercontent.com/97261554/236729967-628ef8ac-62da-4aa0-89bd-bf8ac68d4980.png)
 
-```git checkout название_файла```
+```git checkout bird.txt```
+>Откатила изменения до последней проиндексированной версии
+>
+>![image](https://user-images.githubusercontent.com/97261554/236730094-b7fd9cdb-5ba6-48ec-b737-721b235317ab.png)
 
-```git merge название_ветки```
+```git merge v1```
+>Произвела слияние ветки v1 с главной веткой main
+>
+>![image](https://user-images.githubusercontent.com/97261554/236730201-525c5fd1-cc26-46b1-ab50-2d267308924f.png)
 
-```git branch -d название_ветки```
+```git branch -d v1```
+>Удалила ветку v1
+>
+>![image](https://user-images.githubusercontent.com/97261554/236730298-ba45ed8d-4cec-4647-b7d4-ddddb7949837.png)
 
-```git branch -D название_ветки```
+```git branch -D v2```
+>Удалила несмерженную ветку v2
+>
+>![image](https://user-images.githubusercontent.com/97261554/236730415-e29259b7-bf7a-495d-9464-175bea1f430a.png)
 
-```git show номер_коммита```
+```git show a505bdf```
+>Посмотреть определённый комит по его номеру
+>
+>![image](https://user-images.githubusercontent.com/97261554/236730533-dd5db702-4398-4169-b64f-c0085e0e6be0.png)
 
 _____
 
