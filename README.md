@@ -19,60 +19,93 @@ _____
 _____
 
 ### Коммиты и работа с файлами.
-1. Выполнить команды:
-git commit -am
-git commit -m “комментрий” путь к файлу
-Git add -A
-Git rm -r —cached
-Git rm -r
-Git rm -f
-Git mv файл новый_файл
-Git log
-Git log -p
-Git show
-Git diff
-Git diff —staged
+
+```git commit -am```
+
+```git commit -m``` “комментрий” путь к файлу
+
+```Git add -A```
+
+```Git rm -r —cached```
+
+```Git rm -r```
+
+```Git rm -f```
+
+```Git mv файл новый_файл```
+
+```Git log```
+
+```Git log -p```
+
+```Git show```
+
+```Git diff```
+
+```Git diff —staged```
 
 _____
 
 ### Ветки. Создание, удаление, слияние.
-1. Выполнить команды:
-git branch
-git branch -v
-git branch название_ветки
-git checkout название_ветки
-git checkout -f название_ветки
-git checkout -f
-git stash
-git stash pop
-git checkout название_файла
-git merge название_ветки
-git branch -d название_ветки
-git branch -D название_ветки
-git show номер_коммита
+
+```git branch```
+
+```git branch -v```
+
+```git branch название_ветки```
+
+```git checkout название_ветки```
+
+```git checkout -f название_ветки```
+
+```git checkout -f```
+
+```git stash```
+
+```git stash pop```
+
+```git checkout название_файла```
+
+```git merge название_ветки```
+
+```git branch -d название_ветки```
+
+```git branch -D название_ветки```
+
+```git show номер_коммита```
 
 _____
 
 ### Отмена изменений. Git Reset.
-1. Выполнить команды:
-git reset —hard номер_коммита
-git reset —hard ORIG_HEAD
-git reset —hard
-git reset —soft номер_коммита
-git commit —amend
-git log —oneline
-git log название ветки —oneline
-git show коммит:название файла
-git show :название файла
+
+```git reset —hard номер_коммита```
+
+```git reset —hard ORIG_HEAD```
+
+```git reset —hard```
+
+```git reset —soft номер_коммита```
+
+```git commit —amend```
+
+```git log —oneline```
+
+```git log название ветки —oneline```
+
+```git show коммит:название файла```
+
+```git show :название файла```
 
 2. Найти опцию и выполнить команду показа всех коммитов по определенному ключевому слову из комментария.
 https://git-scm.com/book/ru/v2
 
 _____
 
-### Изучение инструмента SmartGit.
-1. Выполнить команды git bash:
-git add -p
+### Изучение инструмента SmartGit (изменит название).
+
+```git add -p```
+```git pull```
+```git pull --rebase```
 
 2. Использовать SmartGit для:
 - Подключения локального репозитория
