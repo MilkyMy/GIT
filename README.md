@@ -27,7 +27,7 @@ _____
 >![image](https://user-images.githubusercontent.com/97261554/236870770-d47a084e-177f-4c0e-a188-baa0bb8c605f.png)
 
 ```git add -A```
->Проиндексировала изменения во всех директориях
+>Индексация изменений во всех директориях
 >
 >![image](https://user-images.githubusercontent.com/97261554/236725542-c57725b5-7956-4c9b-a95a-fd9eca68a4aa.png)
 
