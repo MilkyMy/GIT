@@ -12,8 +12,9 @@ _____
 ### Основные команды.
 
 ```git status```
+>Показывает текущую ситуацию в репозитории
 >
-
+>![image](https://user-images.githubusercontent.com/97261554/236861851-69d3bfcb-2f56-4f00-bc25-502fe37d2998.png)
 
 ```git commit```
 >
@@ -70,8 +71,11 @@ _____
 >
 >![image](https://user-images.githubusercontent.com/97261554/236727935-e02961b1-9e5b-4cbc-89b3-130dd5d6a524.png)
 
-```ls ls -la```
->Показывает список всех файлов, в т.ч. скрытых системных 
+```ls -la```
+>Показывает список всех файлов, в т.ч. скрытых системных
+>
+>![image](https://user-images.githubusercontent.com/97261554/236861481-fc0c9db8-b863-4830-a759-4faec7a54cfa.png)
+
 
 ```git show```
 >Информация по последнему комиту.
