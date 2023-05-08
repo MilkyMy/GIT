@@ -28,7 +28,7 @@ _____
 ```git commit -m “комментрий” путь к файлу```
 >Комит определённого файла. В данном случае second.txt
 >
->![image](https://user-images.githubusercontent.com/97261554/236724950-e2df7c3d-20ca-44b1-bf9a-43ccdd4e4259.png)
+>![image](https://user-images.githubusercontent.com/97261554/236727689-c1162665-a5d8-42c6-b33f-494a8411603d.png)
 
 ```Git add -A```
 >Проиндексировала изменения во всех директориях, находясь при этом в папке folder2
@@ -58,12 +58,12 @@ _____
 ```Git log```
 >История комитов с автором и датой
 >
->![image](https://user-images.githubusercontent.com/97261554/236726358-a53843f5-c999-463b-b80d-b59bfcbf7c5e.png)
+>![image](https://user-images.githubusercontent.com/97261554/236727866-b9610409-c4a4-403a-a498-4c3ef22d6027.png)
 
 ```Git log -p```
 >Более подробная история комитов. Показаны добавленные и удалённые строки в файлах.
 >
->![image](https://user-images.githubusercontent.com/97261554/236726496-04ec7298-9661-4fce-a4da-c95ac2a815b5.png)
+>![image](https://user-images.githubusercontent.com/97261554/236727935-e02961b1-9e5b-4cbc-89b3-130dd5d6a524.png)
 
 ```Git show```
 >Информация по последнему комиту.
@@ -73,7 +73,7 @@ _____
 ```Git diff```
 >Показывает непроиндексированные изменения в проиндексированных файлах. В данном случае, у меня было 2 подготовленных к комиту файла. Я решила внести изменения в файл dog.txt. Команда git diff показала мне эти изменения.
 >
->![image](https://user-images.githubusercontent.com/97261554/236726672-8179d69a-7d11-480b-b808-f9e78e030c9c.png)
+>![image](https://user-images.githubusercontent.com/97261554/236728045-5e347322-6b69-4cc1-a3bd-5048dacac42f.png)
 
 ```Git diff —staged```
 >Я закомитила первоначальную версию файлов cat.txt и dog.txt. После этого подготовила к комиту новую версию файла dog.txt. И сравнила 2 версии файла dog.txt командой git diff --staged (первая - уже сохранённая, а вторая только подготовлена).
@@ -140,10 +140,21 @@ _____
 ### Изучение инструмента SmartGit (изменит название).
 
 ```git add -p```
+>Проиндексировала часть изменений в файле
+>
+>![image](https://user-images.githubusercontent.com/97261554/236727025-a809dd46-c8cc-400c-ada4-af9d89cb7243.png)
+>![image](https://user-images.githubusercontent.com/97261554/236727362-12e476b6-ad8e-4301-b751-10f3e03366a1.png)
 
 ```git pull```
+>Подтянула изменения из удалённого репозитория в локальный c созданием дополнительной ветки и комита
+>
+>![image](https://user-images.githubusercontent.com/97261554/236727449-c6744cc1-143e-4a3b-939c-047de8b7d70a.png)
 
 ```git pull --rebase```
+>Подтянула изменения из удалённого репозитория в локальный без создания дополнительной ветки и комита
+>
+>![image](https://user-images.githubusercontent.com/97261554/236727536-58e05e29-3af1-4465-962a-3d66f08504a7.png)
+
 
 2. Использовать SmartGit для:
 - Подключения локального репозитория
