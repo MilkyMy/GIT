@@ -149,6 +149,22 @@ _____
 >
 >![image](https://user-images.githubusercontent.com/97261554/236726839-34dc577a-5887-41f4-bd78-8a0baa89076d.png)
 
+```git add -p```
+>Проиндексировала часть изменений в файле
+>
+>![image](https://user-images.githubusercontent.com/97261554/236727025-a809dd46-c8cc-400c-ada4-af9d89cb7243.png)
+>![image](https://user-images.githubusercontent.com/97261554/236727362-12e476b6-ad8e-4301-b751-10f3e03366a1.png)
+
+```git pull```
+>Подтянула изменения из удалённого репозитория в локальный c созданием дополнительной ветки и комита
+>
+>![image](https://user-images.githubusercontent.com/97261554/236727449-c6744cc1-143e-4a3b-939c-047de8b7d70a.png)
+
+```git pull --rebase```
+>Подтянула изменения из удалённого репозитория в локальный без создания дополнительной ветки и комита
+>
+>![image](https://user-images.githubusercontent.com/97261554/236727536-58e05e29-3af1-4465-962a-3d66f08504a7.png)
+
 _____
 
 ### Ветки. Создание, удаление, слияние.
@@ -271,23 +287,3 @@ _____
 >Нашла комит, содержащий в комментарии ключевое слово "save"
 >
 >![image](https://user-images.githubusercontent.com/97261554/236732200-8d71cef2-d9f3-4243-b9e8-a018d6e6456f.png)
-
-_____
-
-### Изучение инструмента SmartGit (изменит название).
-
-```git add -p```
->Проиндексировала часть изменений в файле
->
->![image](https://user-images.githubusercontent.com/97261554/236727025-a809dd46-c8cc-400c-ada4-af9d89cb7243.png)
->![image](https://user-images.githubusercontent.com/97261554/236727362-12e476b6-ad8e-4301-b751-10f3e03366a1.png)
-
-```git pull```
->Подтянула изменения из удалённого репозитория в локальный c созданием дополнительной ветки и комита
->
->![image](https://user-images.githubusercontent.com/97261554/236727449-c6744cc1-143e-4a3b-939c-047de8b7d70a.png)
-
-```git pull --rebase```
->Подтянула изменения из удалённого репозитория в локальный без создания дополнительной ветки и комита
->
->![image](https://user-images.githubusercontent.com/97261554/236727536-58e05e29-3af1-4465-962a-3d66f08504a7.png)
