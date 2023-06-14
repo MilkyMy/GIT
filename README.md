@@ -109,6 +109,31 @@ _____
 >
 >![image](https://user-images.githubusercontent.com/97261554/236727536-58e05e29-3af1-4465-962a-3d66f08504a7.png)
 
+```git log —oneline```
+>Вывела краткую инфу по логу
+>
+>![image](https://user-images.githubusercontent.com/97261554/236731658-7439d113-b7ac-44ff-b817-4146c3d46abe.png)
+
+```git log main --oneline```
+>Вывела краткий лог определённой ветки
+>
+>![image](https://user-images.githubusercontent.com/97261554/236731765-de7de149-7e18-4fc7-884a-7e0d31fd085d.png)
+
+```git show a505bdf dog.txt```
+>Посмотрела содержание файла dog.txt в комите a505bdf
+>
+>![image](https://user-images.githubusercontent.com/97261554/236731951-da5667ea-dc87-4a54-bb09-46fe860f2aa0.png)
+
+```git show :check2.txt```
+>Посмотрела проиндексированные изменения в файле check2.txt
+>
+>![image](https://user-images.githubusercontent.com/97261554/236732108-1565a628-c837-43b2-8743-b124945a5aa2.png)
+
+```git log --grep "save"```
+>Нашла комит, содержащий в комментарии ключевое слово "save"
+>
+>![image](https://user-images.githubusercontent.com/97261554/236732200-8d71cef2-d9f3-4243-b9e8-a018d6e6456f.png)
+
 [:arrow_up:Вернуться к оглавлению](#оглавление)
 
 _____
@@ -210,30 +235,5 @@ _____
 >Исправила комментарий предыдущего комита
 >
 >![image](https://user-images.githubusercontent.com/97261554/236731568-568a3ba9-001d-4e95-989d-d00cbbbb46c2.png)
-
-```git log —oneline```
->Вывела краткую инфу по логу
->
->![image](https://user-images.githubusercontent.com/97261554/236731658-7439d113-b7ac-44ff-b817-4146c3d46abe.png)
-
-```git log main --oneline```
->Вывела краткий лог определённой ветки
->
->![image](https://user-images.githubusercontent.com/97261554/236731765-de7de149-7e18-4fc7-884a-7e0d31fd085d.png)
-
-```git show a505bdf dog.txt```
->Посмотрела содержание файла dog.txt в комите a505bdf
->
->![image](https://user-images.githubusercontent.com/97261554/236731951-da5667ea-dc87-4a54-bb09-46fe860f2aa0.png)
-
-```git show :check2.txt```
->Посмотрела проиндексированные изменения в файле check2.txt
->
->![image](https://user-images.githubusercontent.com/97261554/236732108-1565a628-c837-43b2-8743-b124945a5aa2.png)
-
-```git log --grep "save"```
->Нашла комит, содержащий в комментарии ключевое слово "save"
->
->![image](https://user-images.githubusercontent.com/97261554/236732200-8d71cef2-d9f3-4243-b9e8-a018d6e6456f.png)
 
 [:arrow_up:Вернуться к оглавлению](#оглавление)
