@@ -88,7 +88,7 @@ _____
 >
 >![image](https://user-images.githubusercontent.com/97261554/236728045-5e347322-6b69-4cc1-a3bd-5048dacac42f.png)
 
-```git diff —staged```
+```git diff --staged```
 >Я закомитила первоначальную версию файлов cat.txt и dog.txt. После этого подготовила к комиту новую версию файла dog.txt. И сравнила 2 версии файла dog.txt командой git diff --staged (первая - уже сохранённая, а вторая только подготовлена).
 >
 >![image](https://user-images.githubusercontent.com/97261554/236726839-34dc577a-5887-41f4-bd78-8a0baa89076d.png)
@@ -109,7 +109,7 @@ _____
 >
 >![image](https://user-images.githubusercontent.com/97261554/236727536-58e05e29-3af1-4465-962a-3d66f08504a7.png)
 
-```git log —oneline```
+```git log --oneline```
 >Вывела краткую инфу по логу
 >
 >![image](https://user-images.githubusercontent.com/97261554/236731658-7439d113-b7ac-44ff-b817-4146c3d46abe.png)
@@ -196,12 +196,12 @@ _____
 >
 >![image](https://user-images.githubusercontent.com/97261554/236731217-cdd1760b-081c-4963-b539-af5174bb2833.png)
 
-```git reset —hard ORIG_HEAD```
+```git reset --hard ORIG_HEAD```
 >Отменила предыдущий откат
 >
 >![image](https://user-images.githubusercontent.com/97261554/236731288-c7aa2587-5235-42c1-a49f-012dcfd877dd.png)
 
-```git reset —hard```
+```git reset --hard```
 >Перешла к состоянию последнего выполненного комита,отменила все незакомиченные изменения
 >
 >![image](https://user-images.githubusercontent.com/97261554/236731353-9d9ba506-689d-4061-a8f3-81135b4aa671.png)
@@ -211,7 +211,7 @@ _____
 >
 >![image](https://user-images.githubusercontent.com/97261554/236731463-2d2d289b-9cc5-4b0e-9ebf-d137d04188e1.png)
 
-```git commit —amend```
+```git commit --amend```
 >Исправила комментарий предыдущего комита
 >
 >![image](https://user-images.githubusercontent.com/97261554/236731568-568a3ba9-001d-4e95-989d-d00cbbbb46c2.png)
