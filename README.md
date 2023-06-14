@@ -170,26 +170,6 @@ _____
 >
 >![image](https://user-images.githubusercontent.com/97261554/236729597-6c2c93df-376e-45f1-93ba-cc4133a0e3ac.png)
 
-```git checkout -f```
->Удалила все незакомиченные изменения
->
->![image](https://user-images.githubusercontent.com/97261554/236729685-a70f2102-0fbc-4dcf-9499-45796e9e15db.png)
-
-```git stash```
->Сохранила все незакомиченные изменения и откатилась до предыдущего комита
->
->![image](https://user-images.githubusercontent.com/97261554/236729832-1301dd25-6e90-47de-8ed1-701e712de70f.png)
-
-```git stash pop```
->Вернулась к этим изменениям
->
->![image](https://user-images.githubusercontent.com/97261554/236729967-628ef8ac-62da-4aa0-89bd-bf8ac68d4980.png)
-
-```git checkout bird.txt```
->Откатила изменения до последней проиндексированной версии
->
->![image](https://user-images.githubusercontent.com/97261554/236730094-b7fd9cdb-5ba6-48ec-b737-721b235317ab.png)
-
 ```git merge v1```
 >Произвела слияние ветки v1 с главной веткой main
 >
@@ -235,5 +215,25 @@ _____
 >Исправила комментарий предыдущего комита
 >
 >![image](https://user-images.githubusercontent.com/97261554/236731568-568a3ba9-001d-4e95-989d-d00cbbbb46c2.png)
+
+```git checkout -f```
+>Удалила все незакомиченные изменения
+>
+>![image](https://user-images.githubusercontent.com/97261554/236729685-a70f2102-0fbc-4dcf-9499-45796e9e15db.png)
+
+```git stash```
+>Сохранила все незакомиченные изменения и откатилась до предыдущего комита
+>
+>![image](https://user-images.githubusercontent.com/97261554/236729832-1301dd25-6e90-47de-8ed1-701e712de70f.png)
+
+```git stash pop```
+>Вернулась к этим изменениям
+>
+>![image](https://user-images.githubusercontent.com/97261554/236729967-628ef8ac-62da-4aa0-89bd-bf8ac68d4980.png)
+
+```git checkout bird.txt```
+>Откатила изменения до последней проиндексированной версии
+>
+>![image](https://user-images.githubusercontent.com/97261554/236730094-b7fd9cdb-5ba6-48ec-b737-721b235317ab.png)
 
 [:arrow_up:Вернуться к оглавлению](#оглавление)
