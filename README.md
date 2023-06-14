@@ -134,6 +134,11 @@ _____
 >
 >![image](https://user-images.githubusercontent.com/97261554/236732200-8d71cef2-d9f3-4243-b9e8-a018d6e6456f.png)
 
+```git show a505bdf```
+>Посмотреть определённый комит по его номеру
+>
+>![image](https://user-images.githubusercontent.com/97261554/236730533-dd5db702-4398-4169-b64f-c0085e0e6be0.png)
+
 [:arrow_up:Вернуться к оглавлению](#оглавление)
 
 _____
@@ -199,11 +204,6 @@ _____
 >Удалила несмерженную ветку v2
 >
 >![image](https://user-images.githubusercontent.com/97261554/236730785-c2425f31-4190-4937-8f0f-bd7486ac42d4.png)
-
-```git show a505bdf```
->Посмотреть определённый комит по его номеру
->
->![image](https://user-images.githubusercontent.com/97261554/236730533-dd5db702-4398-4169-b64f-c0085e0e6be0.png)
 
 [:arrow_up:Вернуться к оглавлению](#оглавление)
 
