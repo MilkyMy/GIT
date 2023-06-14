@@ -212,7 +212,7 @@ _____
 >![image](https://user-images.githubusercontent.com/97261554/236731568-568a3ba9-001d-4e95-989d-d00cbbbb46c2.png)
 
 ```git log —oneline```
->Вывела кратую инфу по логу
+>Вывела краткую инфу по логу
 >
 >![image](https://user-images.githubusercontent.com/97261554/236731658-7439d113-b7ac-44ff-b817-4146c3d46abe.png)
 
